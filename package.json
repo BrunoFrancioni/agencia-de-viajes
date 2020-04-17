@@ -1,0 +1,19 @@
+{
+  "name": "agencia-de-viajes",
+  "version": "1.0.0",
+  "description": "Página Web de una agencia de viajes utilizando NodeJs, ExpressJs y Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoFrancioni/agencia-de-viajes.git"
+  },
+  "author": "Bruno Francioni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoFrancioni/agencia-de-viajes/issues"
+  },
+  "homepage": "https://github.com/BrunoFrancioni/agencia-de-viajes#readme"
+}
