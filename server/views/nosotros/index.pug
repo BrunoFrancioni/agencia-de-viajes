@@ -1,4 +1,27 @@
 extends ../layout/index
 
 block contenido
-    h1 #{pagina}
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen Nosotros" class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore in perferendis voluptatibus dolores accusantium. Aperiam voluptatem accusamus numquam mollitia itaque maxime odio ratione? Maiores, enim? Qui ducimus illum fuga placeat.
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolor libero iste mollitia placeat voluptate dolorum, ducimus repellat cupiditate incidunt sed corporis suscipit quis illum inventore fugiat eaque minima facere!
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sed fugit, suscipit aut reiciendis velit eaque voluptatem hic, magni repellendus eligendi praesentium consequuntur ducimus veritatis temporibus esse ratione autem vel.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente accusamus consequuntur cum ipsum repudiandae ad, fugiat pariatur perspiciatis facilis.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente accusamus consequuntur cum ipsum repudiandae ad, fugiat pariatur perspiciatis facilis.
+                .col-md-4
+                    img(src="img/icono_precio.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejor Precio
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente accusamus consequuntur cum ipsum repudiandae ad, fugiat pariatur perspiciatis facilis.
