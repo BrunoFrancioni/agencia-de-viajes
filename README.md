@@ -8,3 +8,4 @@ Página Web de una agencia de viajes.
 - ExpressJS.
 - Sequelize.
 - Bootstrap.
+- PostgreSQL.

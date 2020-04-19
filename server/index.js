@@ -6,6 +6,12 @@ const routes = require('./routes');
 
 const configs = require('./config');
 
+const db = require('./config/database');
+
+db.authenticate()
+    .then(() => console.log('Db conectada'))
+    .catch(error => console.log(error));
+
 // Configurar Express
 
 const app = express();
