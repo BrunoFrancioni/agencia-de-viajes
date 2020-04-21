@@ -1,7 +1,7 @@
 const Testimonial = require('../models/Testimoniales');
 
 exports.mostrarTestimoniales = async (req, res) => {
-    const testimoniales = await Testimonial.findAll();
+    const testimoniales = await Testimonial.findAll().catch(error => console.log(error));
     res.render('testimoniales', {
         pagina: 'Testimoniales',
         testimoniales
@@ -23,7 +23,7 @@ exports.agregarTestimonial = async (req, res) => {
     }
 
     if(errores.length > 0) {
-        const testimoniales = await Testimonial.findAll();
+        const testimoniales = await Testimonial.findAll().catch(error => console.log(error));
         res.render('testimoniales', {
             errores,
             nombre,
