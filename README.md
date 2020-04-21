@@ -9,3 +9,4 @@ Página Web de una agencia de viajes.
 - Sequelize.
 - Bootstrap.
 - PostgreSQL.
+- Pug - Template Engine.
